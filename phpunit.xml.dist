@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<phpunit
+    bootstrap="test/bootstrap.php"
+    stopOnFailure="false"
+    processIsolation="true"
+    backupGlobal="false"
+    syntaxCheck="true"
+    >
+  <testsuite name="Tests">
+    <directory>test</directory>
+  </testsuite>
+
+</phpunit>
+
